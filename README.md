@@ -47,13 +47,13 @@ Pipeline ETL pour gérer les données de production et de commandes : extraction
 ## Installation
 ### Cloner le dépôt
 git clone https://github.com/CortoGyt/distributech.git \
-cd distributech
+cd distributech \
 
 ### Créer un environnement virtuel et installer les dépendances:
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt
+python -m venv venv \
+source venv/bin/activate   # Linux / Mac \
+venv\Scripts\activate      # Windows \
+pip install -r requirements.txt \
 
 ### Installer les dépendances Python
 pip install pandas mysql-connector-python python-dotenv
@@ -64,9 +64,9 @@ DB_PASSWORD=votre_mot_de_passe
 
 
 ## Docker (optionnel)
-Pour lancer MySQL et Adminer via Docker Compose depuis `bdd/db` :
-cd bdd/db
-docker-compose up -d
+Pour lancer MySQL et Adminer via Docker Compose depuis `bdd/db` : \
+cd bdd/db \
+docker-compose up -d \
 
 - MySQL : localhost:3306 (root password: votre_mot_de_passe)
 - Adminer : http://localhost:8080
