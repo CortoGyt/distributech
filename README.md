@@ -47,7 +47,7 @@ cd distributech
 pip install pandas mysql-connector-python python-dotenv
 
 ### Créer un fichier `.env`
-DB_USER=votre_utilisateur
+DB_USER=votre_utilisateur \
 DB_PASSWORD=votre_mot_de_passe
 
 
