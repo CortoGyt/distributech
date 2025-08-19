@@ -40,7 +40,7 @@ Pipeline ETL pour gérer les données de production et de commandes : extraction
 
 ## Installation
 ### Cloner le dépôt
-git clone https://github.com/CortoGyt/distributech.git
+git clone https://github.com/CortoGyt/distributech.git \
 cd distributech
 
 ### Installer les dépendances Python
@@ -84,8 +84,9 @@ python scripts/Main.py
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Créateurs
-- Nom Créateur 1 (placeholder)
-- Nom Créateur 2 (placeholder)
+- Khaoula MILI
+- Hugo BABIN
+- Corto GAYET
 
 ## Liens utiles
 - [GitHub](https://github.com/CortoGyt/distributech)
