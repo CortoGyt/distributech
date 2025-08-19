@@ -9,7 +9,7 @@ Pipeline ETL pour gérer les données de production et de commandes : extraction
 
 ---
 
-### 📂 Structure du projet
+### Structure du projet
 
 ```
 data/
