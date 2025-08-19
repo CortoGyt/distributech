@@ -24,24 +24,36 @@ Pipeline ETL pour gérer les données de production et de commandes : extraction
 - Création et gestion de tables MySQL
 - Chargement des données via procédure stockée
 - Export du stock disponible en CSV
+- Suivi du stock (suivi_stock)
 - Option Docker pour MySQL + Adminer
 
 ## Prérequis
 - Python 3.10+
 - MySQL 8+ (ou Docker pour MySQL)
 - pip
+- virtualenv (optionnel mais recommandé)
 - Docker (optionnel)
 
 ## Technologies et langages
-- Python (pandas, mysql-connector-python, python-dotenv)
-- MySQL
-- Docker (optionnel)
-- CSV/SQLite pour stockage temporaire
+- Python 3 (ETL)
+- pandas → manipulation des données
+- mysql.connector → connexion MySQL
+- sqlite3 → connexion SQLite
+- dotenv → gestion des variables d’environnement
+- MySQL → base de données cible
+- SQLite → base source (données initiales)
+- Git / GitHub → gestion de version
 
 ## Installation
 ### Cloner le dépôt
 git clone https://github.com/CortoGyt/distributech.git \
 cd distributech
+
+### Créer un environnement virtuel et installer les dépendances:
+python -m venv venv
+source venv/bin/activate   # Linux / Mac
+venv\Scripts\activate      # Windows
+pip install -r requirements.txt
 
 ### Installer les dépendances Python
 pip install pandas mysql-connector-python python-dotenv
@@ -83,11 +95,40 @@ python scripts/Main.py
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
+## Structure
+
+├── README.md
+├── bdd
+│   ├── docker-compose.yml
+├── data
+│   ├── base_stock.sqlite
+│   ├── commande_revendeur_tech_express.csv
+│   ├── db_stock.py
+│   ├── export
+│   │   ├── stock_disponible_2025-06-01.csv
+│   └── transform
+│       ├── commandes_produits_transforme.csv
+│       ├── commandes_transforme.csv
+│       ├── paniers_transforme.csv
+│       ├── productions_transforme.csv
+│       ├── produits_transforme.csv
+│       ├── regions_transforme.csv
+│       ├── revendeurs_transforme.csv
+│       └── stock_disponible.csv
+├── requirements.txt
+└── scripts
+    ├── __pycache__
+    ├── create_db.py
+    ├── extraire_donnees.py
+    ├── load_db.py
+    ├── main.py
+    ├── procedure.py
+    └── transform_data.py
+
 ## Créateurs
 - [Khaoula MILI](https://www.linkedin.com/in/hugo-babin-878451239/)
 - [Hugo BABIN](https://www.linkedin.com/in/khaoula-mili/)
 - [Corto GAYET](https://www.linkedin.com/in/corto-gayet-246aa32b3/)
 
 ## Liens utiles
-- [GitHub](https://github.com/CortoGyt/distributech)
-- [LinkedIn](https://www.linkedin.com/in/corto-gayet-246aa32b3/)
+- [GitHub](https://github.com/hugobabin/distributech)
