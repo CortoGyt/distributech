@@ -96,7 +96,7 @@ python scripts/Main.py
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Structure
-
+```
 ├── README.md
 ├── bdd
 │   └── docker-compose.yml
@@ -124,7 +124,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
     ├── main.py
     ├── procedure.py
     └── transform_data.py
-
+```
 ## Créateurs
 - [Khaoula MILI](https://www.linkedin.com/in/hugo-babin-878451239/)
 - [Hugo BABIN](https://www.linkedin.com/in/khaoula-mili/)
