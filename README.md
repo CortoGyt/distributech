@@ -84,9 +84,9 @@ python scripts/Main.py
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Créateurs
-- Khaoula MILI
-- Hugo BABIN
-- Corto GAYET
+- [Khaoula MILI](https://www.linkedin.com/in/hugo-babin-878451239/)
+- [Hugo BABIN](https://www.linkedin.com/in/khaoula-mili/)
+- [Corto GAYET](https://www.linkedin.com/in/corto-gayet-246aa32b3/)
 
 ## Liens utiles
 - [GitHub](https://github.com/CortoGyt/distributech)
