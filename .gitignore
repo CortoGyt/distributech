@@ -9,3 +9,6 @@ bdd/
 
 #data (rgpd)
 data/
+
+#logs 
+.logs
