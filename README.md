@@ -97,33 +97,33 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 ## Structure
 
-├── README.md\
-├── bdd\
-│   ├── docker-compose.yml\
-├── data\
-│   ├── base_stock.sqlite\
-│   ├── commande_revendeur_tech_express.csv\
-│   ├── db_stock.py\
-│   ├── export\
-│   │   ├── stock_disponible_2025-06-01.csv\
-│   └── transform\
-│       ├── commandes_produits_transforme.csv\
-│       ├── commandes_transforme.csv\
-│       ├── paniers_transforme.csv\
-│       ├── productions_transforme.csv\
-│       ├── produits_transforme.csv\
-│       ├── regions_transforme.csv\
-│       ├── revendeurs_transforme.csv\
-│       └── stock_disponible.csv\
-├── requirements.txt\
-└── scripts\
-    ├── __pycache__\
-    ├── create_db.py\
-    ├── extraire_donnees.py\
-    ├── load_db.py\
-    ├── main.py\
-    ├── procedure.py\
-    └── transform_data.py\
+├── README.md
+├── bdd
+│   └── docker-compose.yml
+├── data
+│   ├── base_stock.sqlite
+│   ├── commande_revendeur_tech_express.csv
+│   ├── db_stock.py
+│   ├── export
+│   │   └── stock_disponible_2025-06-01.csv
+│   └── transform
+│       ├── commandes_produits_transforme.csv
+│       ├── commandes_transforme.csv
+│       ├── paniers_transforme.csv
+│       ├── productions_transforme.csv
+│       ├── produits_transforme.csv
+│       ├── regions_transforme.csv
+│       ├── revendeurs_transforme.csv
+│       └── stock_disponible.csv
+├── requirements.txt
+└── scripts
+    ├── __pycache__
+    ├── create_db.py
+    ├── extraire_donnees.py
+    ├── load_db.py
+    ├── main.py
+    ├── procedure.py
+    └── transform_data.py
 
 ## Créateurs
 - [Khaoula MILI](https://www.linkedin.com/in/hugo-babin-878451239/)
