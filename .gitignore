@@ -1,5 +1,11 @@
-#database
-/bdd
+#database 
+bdd/
 
-#.env
+#env
 .env
+
+#dtvenv
+.dtvenv
+
+#data (rgpd)
+data/
